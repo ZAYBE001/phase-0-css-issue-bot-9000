@@ -13,11 +13,18 @@ h2 {
   font-style: italic;
 }
 
-completed {
+.completed {
   font-family: 'Courier New', monospace;
+  font-size: 12px;
 }
 
-tasks completed {
-  background-color: #ccc;
+#tasks .completed {
   text-decoration: underline;
+  padding: 10px;
+  background:#ccc;
+  
+  margin: 5px;
+  
 }
+
+ 
